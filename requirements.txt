@@ -1,0 +1,2 @@
+slack_bolt>=1.21,<2
+anthropic>=2.4

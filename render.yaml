@@ -1,0 +1,22 @@
+services:
+  - type: worker
+    name: mae-linkedin-bot
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: SLACK_BOT_TOKEN
+        sync: false
+      - key: SLACK_APP_TOKEN
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: REVIEWER_USER_IDS
+        sync: false
+      - key: TESTER_NOTE
+        value: "The reviewer right now is AJ, testing on Vivian's behalf. Treat AJ's edits and approvals as Vivian's."
+      - key: WEEKLY_IDEAS
+        value: "MON 09:00"
+      - key: WEEKLY_TZ
+        value: America/Toronto
