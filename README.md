@@ -18,3 +18,9 @@ When Claude asks which repository to use, pick **mae-linkedin-bot**. Then DM it 
 Create a Project, paste `prompts/drafter.md` into its instructions, and add `prompts/style-guide.md` as a file. Chat there.
 
 `optional-api-bot/` is a standalone Slack bot that isn't in use, because it needs paid API usage.
+
+## Two modes
+- **Mode A, automatic:** every Sunday evening the scheduled task researches the week's dealership news and posts a finished draft to #linkedin-drafts. Vivian fine-tunes it in the thread.
+- **Mode B, her idea:** in Slack, "@Claude idea: <topic>". It researches, asks at most 5 questions, drafts, and then the same edit loop runs.
+
+Both modes log her edits in `memory/edit-log.md`, and repeated changes become rules in `memory/learned-rules.md`.

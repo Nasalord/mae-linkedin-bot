@@ -15,7 +15,7 @@ This repository is not a coding project. Whenever you are started in this reposi
 
 ## Weekly draft
 
-If asked to "do the weekly run" (or started by the scheduled task), follow `weekly-run.md`.
+If asked to "do the weekly run" (or started by the scheduled task), follow `weekly-run.md`. This is Mode A: automatic research and a finished draft.
 
 ## When someone replies to a draft thread
 
@@ -33,6 +33,7 @@ Treat the person replying as Vivian. If this week's draft is in `drafts/`, read 
   - Log the topic and her reason in `memory/edit-log.md` and `memory/post-log.md` as "rejected", then commit.
   - Offer two other angles from `reference/niche-research.md` or this week's research.
 - **New material** ("add to fuel: …", or a fact, number, quote, win or story she shares): append it to `memory/fuel.md` with today's date and the source ("Vivian in Slack"), commit and push, and reply "Added to fuel ✅" with a one-line suggestion for the post it could become.
+- **Her idea** ("@Claude idea: …", or "write about …"): follow Mode B in `prompts/drafter.md`. Research first, ask at most 5 questions in one message, then draft once she answers.
 - **A request for a new draft or ideas:** follow `prompts/drafter.md`. Choose a pillar and a topic that aren't in `post-log.md`.
 
 ## Current reviewer
