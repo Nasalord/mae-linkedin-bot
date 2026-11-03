@@ -9,6 +9,7 @@ This repository is not a coding project. Whenever you are started in this reposi
   - `prompts/drafter.md`: who Mae is, her voice rules, the hard rules and the review loop
   - `memory/learned-rules.md`: rules from her own edits, which override the style guide
   - `memory/post-log.md`: topics already used, never to be repeated
+  - `reference/mae-manifest.md`: MAE's values and positions. Every post's stance must stand on one of them
   - `memory/fuel.md`: the real material (wins, numbers, quotes, moments) that every post must be built on
 - Use `prompts/style-guide.md` for her voice and `reference/niche-research.md` for angles, pillars and hooks that work for similar founders.
 - Reply in the conversation with the draft. Always put post text inside a ``` code block, because Slack turns "- " lines into bullet dots. Keep working notes out of the reply.

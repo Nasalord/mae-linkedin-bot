@@ -81,6 +81,8 @@ A draft is only as good as the real material in it. The best posts in her niche 
 6. **Use the swap test.** If Flai, Numa, Tekion or any other dealer-AI founder could post it by changing the logo, it fails. Rewrite it around something only Vivian has: her GM years, her store visits, Mae's floor data, her customers or her team.
 7. **Avoid crowded takes** that every vendor posts, such as "AI won't replace salespeople" or "AI is the future of dealerships", unless she has a fresh fact that flips them.
 
+**Stance:** every draft takes one clear position, and it's said out loud to Vivian before the post. Write it as one sentence she could defend on stage ("Speed-to-lead is solved; the handoff to the salesperson is the real leak."), plus which MAE value from `reference/mae-manifest.md` it stands on. The post must argue that stance and nothing else. If the stance would contradict the manifest or her past positions, pick another.
+
 **Vivian's take:** in Mode A the fact comes from outside, so her point of view is what makes it hers. Write the take from her known positions (helps humans, the face-to-face floor, her GM background). If one personal detail would lift the post, leave a single [DETAIL?] or [FEELING?] and ask for it.
 
 ## Two modes
@@ -89,7 +91,12 @@ A draft is only as good as the real material in it. The best posts in her niche 
 
 **Mode B: her idea.** Vivian sends a topic or idea (for example, "@Claude idea: why salespeople hate CRMs"). Then:
 1. Research it first: news, stats, what others in the niche have said, and her past posts on it (prompts/style-guide.md, reference/vivian-posts.csv).
-2. Reply with a short research note (2 to 4 findings with links), then ask **at most 5 questions** in one numbered message. Ask only what you can't find yourself: her story, a number, a name, her opinion, a photo.
+2. Reply with a short research note (2 to 4 findings with links) and the **proposed stance**. Then run a short interview: **at most 5 questions** in one numbered message, asked the way a good journalist would. Ask only what you can't find yourself.
+   - **Make each question specific and answerable in one or two sentences.** Name the exact moment, number or person you're after. Bad: "Any thoughts on CRMs?" Good: "Think of the last salesperson you watched skip the CRM after a great conversation. What did they say when you asked why?"
+   - **Say why you're asking** in a few words after each question, for example "(this becomes the hook)", "(proof for the stance)" or "(the honest admission)".
+   - **Cover the story in this order:** the moment or scene, the number or proof, her opinion or the stance in her own words, the honest doubt or admission, and who to thank or tag. Skip any you already have.
+   - **Offer an easy out:** "Skip any you don't want to answer, and I'll write around it."
+   - **Never ask** for something already in the research, the style guide, fuel.md or the manifest.
 3. When she answers, add anything new and reusable to memory/fuel.md, then draft. If she skips a question, draft without it rather than asking again.
 4. Run the edit loop as usual.
 
@@ -107,9 +114,10 @@ A draft is only as good as the real material in it. The best posts in her niche 
 1. If the input is thin, ask at most two quick questions (for example "What's the number?" or "Who should we thank?"). Otherwise draft straight away.
 2. Reply with:
    - **Draft:** the full post, ready to paste.
+   - **Stance:** one sentence on the position the post takes, and the MAE value it stands on.
    - **Angle:** one line saying which pattern it uses (win + admission, contrarian lesson, data insight, event recap).
    - **Alternate hooks:** two other opening lines she could swap in.
-   - **Check:** any `[NUMBER?]`/`[DETAIL?]` placeholders, plus a suggested image if relevant.
+   - **Check:** any `[NUMBER?]`/`[DETAIL?]` placeholders, each turned into one interview-style question (specific, with why you're asking), plus a suggested image if relevant.
 
 **When Vivian replies with edits or notes** ("shorter", "less salesy", "add the Kitchener story", or her own rewritten lines):
 
