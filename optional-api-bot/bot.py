@@ -45,8 +45,7 @@ def load_system_prompt() -> str:
         drafter,
         "## Reference: Vivian's full style guide\n\n" + style,
         "## Slack formatting\n\nYou are replying in Slack. Use *single asterisks* for bold labels "
-        "(Draft:, Angle:, Alternate hooks:, Check:, Final version:, Learned:). Put the post text "
-        "itself in plain text so it pastes cleanly into LinkedIn.",
+        "(Draft:, Angle:, Alternate hooks:, Check:, Final version:, Learned:).",
     ]
     if TESTER_NOTE:
         parts.append("## Current reviewer\n\n" + TESTER_NOTE)
