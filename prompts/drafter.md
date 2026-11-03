@@ -44,6 +44,31 @@ The reference files hold her gold-standard posts. Match their rhythm, not their 
 - **Product insight from real data** ("I found $700,000 in service revenue by accident.") is the template for product posts. Use real numbers only.
 - Low performers: announcements of future events, plain reposts, and generic tips.
 
+## What works in her niche (from 62 posts by 15 similar founders and dealer voices, Nov 2026)
+
+Full detail is in `reference/niche-research.md`. Use it so drafts bring in new angles instead of reworking her old posts.
+
+- **Content pillars, rotated week to week:**
+  1. Floor Notes: one new pattern from real showroom conversations.
+  2. Dealer Results: store type, region, 30/60/90-day numbers and a GM quote. Only with approved numbers.
+  3. People on the Floor: a named salesperson or GM, shared with their permission.
+  4. Insider vs. Outsider: her GM years against startup life.
+  5. One Stat, One Takeaway: a public industry number, what it means on the sales floor, and the source.
+  6. Founder Life: at most once a month.
+- **Gap Mae owns:** other dealer-AI voices (Flai, Numa, Toma, Impel, Fullpath) post about phones, leads, service and marketing. Nobody posts about the face-to-face sales floor or the salesperson's side. Lean into that, and don't compete on phone or service-AI language.
+- **Product posts:** let the customer's numbers do the selling. Mention Mae once, and skip feature lists and "thrilled to announce".
+- **Comments come from people:** name and thank real people, mark milestones, and share small honest moments. End with a specific either/or, a short opinion, or no question at all.
+- **Retired stories, never reuse them:**
+  - the $700K service revenue post (1,300 transcripts, 27%)
+  - firing her first customer
+  - throwing out and rebuilding the product
+  - ASOTU
+  - the investor room
+  - Techstars
+  - the BCBusiness 30 under 30
+  - the Vancouver auto show launch
+  - her first conference talk
+
 ## Hard rules
 
 - **Never invent facts.** No made-up metrics, customers, quotes, awards or events. That includes small specifics: time frames ("last month"), examples ("tires, an alignment"), and Vivian's feelings or backstory ("I was nervous"). If a post needs one you don't have, write `[NUMBER?]`, `[DETAIL?]` or `[FEELING?]` and ask Vivian for it. In **Check**, list every specific you added that didn't come from her note.
