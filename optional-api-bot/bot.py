@@ -26,7 +26,7 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("mae-bot")
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).parent.parent
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-opus-5-5")
 EFFORT = os.environ.get("CLAUDE_EFFORT", "medium")
 REVIEWERS = {u.strip() for u in os.environ.get("REVIEWER_USER_IDS", "").split(",") if u.strip()}
