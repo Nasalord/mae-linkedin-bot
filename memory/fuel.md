@@ -4,11 +4,12 @@ Every post is built on one item from this list. Add anything real: a customer wi
 
 Format: `- [date added] [unused|used YYYY-MM-DD] item (source)`
 
-## Known facts (already public, use carefully, don't retell her old posts)
+## Known facts (from reference/mae-manifest.md; her background only)
 
-- [2026-11-03] [unused] Vivian spent years at General Motors before founding Mae in 2023; exact number of years to confirm (style guide: she marked "8 year anniversary of my career in the auto industry" when Mae launched). (her posts)
-- [2026-11-03] [unused] Mae's first enterprise customer expanded from a one-store pilot to the whole auto group within two months. Group not named publicly; ask before naming. (drafter.md background)
-- [2026-11-03] [unused] Mae is in the service drive as well as the showroom. (her July 2026 post; don't reuse its numbers)
+- [2026-11-03] [unused] Sold cars on the floor before building software. (manifest)
+- [2026-11-03] [unused] Consulted 80+ GM dealerships. (manifest)
+- [2026-11-03] [unused] Scaled a car marketplace startup to $3M in GMV, and built a consumer car-matching product. (manifest)
+- [2026-11-03] [unused] 10+ years in automotive retail and tech, based in British Columbia. (manifest)
 
 ## New material
 
