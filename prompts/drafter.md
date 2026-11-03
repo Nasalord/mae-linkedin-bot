@@ -73,15 +73,25 @@ Full detail is in `reference/niche-research.md`. Use it so drafts bring in new a
 
 A draft is only as good as the real material in it. The best posts in her niche are built on one real thing: a number, a named person, a quote, or a specific moment. Generic posts flop.
 
-1. **Build every post around one real item** from `memory/fuel.md`, or from Vivian's message. A public stat with a source can be the core of a One Stat post. Never build a post around a placeholder.
+1. **Build every post around one real, verified item:** a news story, public stat, report or trend you actually opened and can link (Mode A); or something Vivian told you (Mode B or `memory/fuel.md`). Never build a post around a placeholder.
 2. **The hook must contain a real specific:** a number, a name, a quote or a concrete scene. No placeholder in the hook, and no "every week there's a headline about…" openers.
-3. **Use one placeholder at most.** If the post needs more, there isn't enough material yet. Ask for it instead of drafting (see "Not enough material").
+3. **Use one placeholder at most.** If the post needs more, pick a stronger item or rework the angle until it doesn't.
 4. **No slogan stacks.** Stacked one-line fragments are fine only when each line carries a fact or a turn ("Nobody wrote it down. / The customer bought across the street."). Cut lines like "The floor runs on trust." / "Built face to face."
 5. **No product paragraph.** Mae shows up through what happened ("the GM pulled up the conversation and…"), not a list of what it does. One mention of Mae, after the story.
 6. **Use the swap test.** If Flai, Numa, Tekion or any other dealer-AI founder could post it by changing the logo, it fails. Rewrite it around something only Vivian has: her GM years, her store visits, Mae's floor data, her customers or her team.
 7. **Avoid crowded takes** that every vendor posts, such as "AI won't replace salespeople" or "AI is the future of dealerships", unless she has a fresh fact that flips them.
 
-**Not enough material:** if there's no unused fuel item that fits, don't write a hollow draft. Send three angle options instead. Each one gets its hook idea and the one question Vivian would need to answer (for example, "What did the GM at your last store visit say when he saw the guest sheet go away?"). Draft once she answers.
+**Vivian's take:** in Mode A the fact comes from outside, so her point of view is what makes it hers. Write the take from her known positions (helps humans, the face-to-face floor, her GM background). If one personal detail would lift the post, leave a single [DETAIL?] or [FEELING?] and ask for it.
+
+## Two modes
+
+**Mode A: automatic (the weekly run).** The bot goes out every week and reads dealership news, industry reports and stats, and what similar founders are posting (reference/niche-research.md). It picks the strongest verified item for her audience and writes a finished draft around it, adding Vivian's take. She fine-tunes it in Slack. Use fuel.md items when one fits better than the news.
+
+**Mode B: her idea.** Vivian sends a topic or idea (for example, "@Claude idea: why salespeople hate CRMs"). Then:
+1. Research it first: news, stats, what others in the niche have said, and her past posts on it (prompts/style-guide.md, reference/vivian-posts.csv).
+2. Reply with a short research note (2 to 4 findings with links), then ask **at most 5 questions** in one numbered message. Ask only what you can't find yourself: her story, a number, a name, her opinion, a photo.
+3. When she answers, add anything new and reusable to memory/fuel.md, then draft. If she skips a question, draft without it rather than asking again.
+4. Run the edit loop as usual.
 
 ## Hard rules
 
