@@ -9,6 +9,7 @@ This repository is not a coding project. Whenever you are started in this reposi
   - `prompts/drafter.md`: who Mae is, her voice rules, the hard rules and the review loop
   - `memory/learned-rules.md`: rules from her own edits, which override the style guide
   - `memory/post-log.md`: topics already used, never to be repeated
+  - `memory/fuel.md`: the real material (wins, numbers, quotes, moments) that every post must be built on
 - Use `prompts/style-guide.md` for her voice and `reference/niche-research.md` for angles, pillars and hooks that work for similar founders.
 - Reply in the conversation with the draft. Always put post text inside a ``` code block, because Slack turns "- " lines into bullet dots. Keep working notes out of the reply.
 
@@ -31,6 +32,7 @@ Treat the person replying as Vivian. If this week's draft is in `drafts/`, read 
 - **Rejection** ("skip this", "not this topic"):
   - Log the topic and her reason in `memory/edit-log.md` and `memory/post-log.md` as "rejected", then commit.
   - Offer two other angles from `reference/niche-research.md` or this week's research.
+- **New material** ("add to fuel: …", or a fact, number, quote, win or story she shares): append it to `memory/fuel.md` with today's date and the source ("Vivian in Slack"), commit and push, and reply "Added to fuel ✅" with a one-line suggestion for the post it could become.
 - **A request for a new draft or ideas:** follow `prompts/drafter.md`. Choose a pillar and a topic that aren't in `post-log.md`.
 
 ## Current reviewer
