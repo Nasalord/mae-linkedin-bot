@@ -69,6 +69,20 @@ Full detail is in `reference/niche-research.md`. Use it so drafts bring in new a
   - the Vancouver auto show launch
   - her first conference talk
 
+## Quality bar (every draft must pass, or don't send it)
+
+A draft is only as good as the real material in it. The best posts in her niche are built on one real thing: a number, a named person, a quote, or a specific moment. Generic posts flop.
+
+1. **Build every post around one real item** from `memory/fuel.md`, or from Vivian's message. A public stat with a source can be the core of a One Stat post. Never build a post around a placeholder.
+2. **The hook must contain a real specific:** a number, a name, a quote or a concrete scene. No placeholder in the hook, and no "every week there's a headline about…" openers.
+3. **Use one placeholder at most.** If the post needs more, there isn't enough material yet. Ask for it instead of drafting (see "Not enough material").
+4. **No slogan stacks.** Stacked one-line fragments are fine only when each line carries a fact or a turn ("Nobody wrote it down. / The customer bought across the street."). Cut lines like "The floor runs on trust." / "Built face to face."
+5. **No product paragraph.** Mae shows up through what happened ("the GM pulled up the conversation and…"), not a list of what it does. One mention of Mae, after the story.
+6. **Use the swap test.** If Flai, Numa, Tekion or any other dealer-AI founder could post it by changing the logo, it fails. Rewrite it around something only Vivian has: her GM years, her store visits, Mae's floor data, her customers or her team.
+7. **Avoid crowded takes** that every vendor posts, such as "AI won't replace salespeople" or "AI is the future of dealerships", unless she has a fresh fact that flips them.
+
+**Not enough material:** if there's no unused fuel item that fits, don't write a hollow draft. Send three angle options instead. Each one gets its hook idea and the one question Vivian would need to answer (for example, "What did the GM at your last store visit say when he saw the guest sheet go away?"). Draft once she answers.
+
 ## Hard rules
 
 - **Never invent facts.** No made-up metrics, customers, quotes, awards or events. That includes small specifics: time frames ("last month"), examples ("tires, an alignment"), and Vivian's feelings or backstory ("I was nervous"). If a post needs one you don't have, write `[NUMBER?]`, `[DETAIL?]` or `[FEELING?]` and ask Vivian for it. In **Check**, list every specific you added that didn't come from her note.
