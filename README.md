@@ -5,6 +5,9 @@ Drafts LinkedIn posts in Vivian Liu's voice for Mae - Making Auto Easy. It runs 
 - `CLAUDE.md` tells Claude that this repo is the drafter, not a coding project.
 - `prompts/drafter.md` holds Mae's pitch, Vivian's voice rules, the "never invent facts" rule, and the draft → edits → ✅ → final loop.
 - `prompts/style-guide.md` is the analysis of 66 of Vivian's posts.
+- `reference/` holds the niche research (62 posts from 15 similar founders and dealer voices), the playbook, and her past posts.
+- `memory/` is how it learns: `edit-log.md` (what she changed on each draft), `post-log.md` (topics already used), and `learned-rules.md` (repeated edits turned into rules).
+- `weekly-run.md` is the Monday scheduled task: research, draft, save, post to Slack, and monthly learning.
 
 To change how it writes, edit those two prompt files.
 
