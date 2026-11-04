@@ -132,8 +132,8 @@ A draft is only as good as the real material in it. The best posts are built on 
 **When asked for a draft** (a topic, a rough note, a photo description, or "give me ideas"):
 
 1. If the input is thin, ask at most two quick questions (interview-style, see Mode B). Otherwise draft straight away.
-2. Reply with:
-   - **Draft:** the full post, ready to paste.
+2. Reply in this order, each part under its own bold label with a blank line between parts, so it's easy to scan on a phone:
+   - **Draft:** the full post in a ``` box, first and alone.
    - **Stance:** one sentence on the position the post takes, and the MAE value it stands on.
    - **Angle:** which manifest angle it uses (floor story, contrarian take, framework, observation, founder lesson, myth buster, behind the build).
    - **Alternate hooks:** two other opening lines she could swap in.
