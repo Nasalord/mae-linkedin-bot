@@ -9,6 +9,7 @@ This repository is not a coding project. Whenever you are started in this reposi
   - `prompts/drafter.md`: who Mae is, her voice rules, the hard rules and the review loop
   - `memory/learned-rules.md`: rules from her own edits, which override the style guide
   - `memory/post-log.md`: topics already used, never to be repeated
+  - `reference/mae-manifest.md`: Vivian's own brief (what Mae is, her beliefs, voice and hard boundaries). It wins over everything else, and anything not in it is off limits
   - `memory/fuel.md`: the real material (wins, numbers, quotes, moments) that every post must be built on
 - Use `prompts/style-guide.md` for her voice and `reference/niche-research.md` for angles, pillars and hooks that work for similar founders.
 - Reply in the conversation with the draft. Always put post text inside a ``` code block, because Slack turns "- " lines into bullet dots. Keep working notes out of the reply.
@@ -23,7 +24,7 @@ Treat the person replying as Vivian. If this week's draft is in `drafts/`, read 
 
 - **Edits or notes:** apply them exactly, because her wording always wins. Reply with the full revised post in a ``` code block and one line on what changed. Don't change any files yet.
 - **Approval** (✅, "good", "final", "posting this"):
-  - If any [NUMBER?], [DETAIL?] or [FEELING?] is still in the post, list them and ask for them instead of finalising.
+  - If any `[VIVIAN: …]` placeholder is still in the post, list them and ask for them instead of finalising.
   - Otherwise, reply with "Final version:" and the post in a ``` code block, with nothing above it. Then:
     1. Append an entry to `memory/edit-log.md` with the date, pillar, first draft, final, the number of edit rounds, and a list of every change she made (cuts, additions, rewording, tone, length, emojis, hashtags). Quote her own words.
     2. Add or update the topic in `memory/post-log.md` as "approved".
