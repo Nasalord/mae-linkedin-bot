@@ -1,0 +1,20 @@
+{
+  "text": "This week's LinkedIn draft for Vivian",
+  "blocks": [
+    { "type": "header", "text": { "type": "plain_text", "text": "📝 This week's LinkedIn draft" } },
+    { "type": "context", "elements": [ { "type": "mrkdwn", "text": "Angle: <manifest angle>  •  <word count> words  •  Mae named: <yes/no>" } ] },
+
+    { "type": "section", "text": { "type": "mrkdwn", "text": "*THE POST*  (copy from the box)\n```<the post, exactly as it should appear on LinkedIn>```" } },
+    { "type": "divider" },
+
+    { "type": "section", "text": { "type": "mrkdwn", "text": "*🎯 THE STANCE*\n<one sentence: the position this post takes>" } },
+    { "type": "section", "text": { "type": "mrkdwn", "text": "*📰 WHY NOW*\n<one or two short lines: what happened, in plain words>\n<source url|Source: publication, date>" } },
+    { "type": "divider" },
+
+    { "type": "section", "text": { "type": "mrkdwn", "text": "*✍️ NEED FROM YOU*  (<n> question(s), skip any)\n*1.* <specific question>\n      _<why: what this adds to the post>_" } },
+    { "type": "divider" },
+
+    { "type": "section", "text": { "type": "mrkdwn", "text": "*🔁 OTHER HOOKS*  (say \"use hook 1\" to swap)\n*1.* <hook>\n*2.* <hook>" } },
+    { "type": "context", "elements": [ { "type": "mrkdwn", "text": "Reply in this thread: *@Claude* + your edits or answers  •  *@Claude ✅* when it's ready to post" } ] }
+  ]
+}

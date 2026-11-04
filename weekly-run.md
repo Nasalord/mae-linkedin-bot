@@ -15,15 +15,14 @@ You are the weekly LinkedIn drafter for Vivian Liu, founder and CEO of Mae - Mak
 
 5. SAVE. Write to drafts/<today>.md: research, pillar, draft, two alternate hooks, open questions. Add a line to memory/post-log.md: date, angle, topic, hook, numbers used, status "drafted". Commit and push to main with message "Weekly draft <today>".
 
-6. SEND TO SLACK. Post one message to the Slack webhook in the SLACK_WEBHOOK_URL environment variable, as JSON {"text": ...}. The message:
-   "Hi Vivian, here's this week's LinkedIn draft 💛
-   Stance: <one sentence: the position this post takes> (Problem: <manifest section 3>. Belief: <manifest section 4>)
-   Angle: <manifest angle>. Why now: <one line + source link; the link stays out of the post>.
-   ```<the post>```
-   Alternate hooks: 1) ... 2) ...
-   Need from you: <each placeholder as a specific interview question with why you're asking, or 'nothing'>
-   Reply in this thread with @Claude and your edits, or @Claude ✅ when it's ready."
-   Keep the post inside the ``` block so Slack keeps her dashes and line breaks.
+6. SEND TO SLACK. Post one message to the Slack webhook in the SLACK_WEBHOOK_URL environment variable, using the Block Kit layout in templates/slack-message.json. Fill every <…> and build the JSON with python (json.dumps) so quotes and newlines are escaped, then POST it with curl. Layout rules, because Vivian reads this on her phone:
+   - **The post comes first**, alone in its ``` box, so she can read and copy it before anything else. Slack keeps her dashes and line breaks inside the box.
+   - **Every other part is its own labelled section**, separated by dividers, in this order: THE STANCE, WHY NOW, NEED FROM YOU, OTHER HOOKS. Keep each to 1 to 3 short lines. The problem and belief names go in drafts/<today>.md, not in Slack.
+   - **WHY NOW** says what happened in plain words. Put the link as a short "Source: publication, date" link on its own line, never as a raw URL mid-sentence.
+   - **NEED FROM YOU** lists each question numbered on its own line, with the reason in italics on the next line. If nothing is needed, write "Nothing. It's ready to post as is." and drop the italics line.
+   - **OTHER HOOKS** is numbered, one hook per line.
+   - Don't add a greeting paragraph, extra notes or anything outside the template. If a section has nothing in it, remove that block.
+   - If the Block Kit post fails (any status other than 200), retry once with a plain {"text": ...} version that uses the same order and labels.
 
 7. LEARN (only on the first run of each month). Read every edit-log entry since the last learning run. Find changes she made at least twice (words she cuts, words she adds, length, emojis, endings, topics she rejects). Add or update them in memory/learned-rules.md as short, testable rules with the date and a count ("She removed 'game-changer' 3 times"). Remove a rule if her later edits contradict it. Commit with message "Learned rules <month>".
 
